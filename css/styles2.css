@@ -1,0 +1,834 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*CSS Stylesheet for Final Project
+	Author: Jonathan Sobier
+	Date: 3/28/2017
+	document: styles2.css
+*/
+
+@font-face {
+	font-family: Metamorphous;
+src:url('../fonts/Metamorphous-Regular.otf') format:("opentype");
+}
+
+@font-face {
+	font-family: Pirelli;
+ src:url('../fonts/pirelli.ttf') format:("TrueType");
+}
+
+@font-face {
+	font-family: FjallaOne;
+	src:url("../fonts/FjallaOne-Regular.ttf") format:("TrueType");
+}
+.container {
+	max-width:1280px;
+	width:100%;
+	margin:0 auto;
+}
+
+h1.siteTitle {
+	margin-top:4%;
+	margin-left:-1%;
+	font-family: 'JosefinSans Bold';
+	font-size:7em;
+	color:rgb(255,255,255);
+}
+
+.siteLogo {
+	float:left;
+	clear:left;
+	width:145px;
+	height:auto;
+}
+
+.header {
+	max-width:1480px;
+	width:100%;
+	height:auto;
+}
+
+html { 
+background-color:rgba(193,87,9,0.81);
+}
+
+body {
+	margin:0px auto;
+	padding: 0px;
+	line-height: 1.5em;
+	width: 99%;
+	max-width: 1480px;
+	min-width: 250px;
+	font-family: 'JosefinSans Bold';
+	color: white;
+	background-color: rgba(48, 34, 26, 1);
+}
+
+
+header {
+	width:100%;
+	height:auto;
+	text-align: center;
+	float:left;
+}
+
+section {
+	width: 59%;
+	height: auto;
+	margin-top:25px;
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+	color:black;
+	border: 4px solid white;
+	border-radius: 15px;
+}
+
+section  img {
+	margin:35px 10px -60px 10px;
+	width:99%;
+	height:auto;	
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	height:auto;
+	max-width: 1480px;
+	min-width: 250px;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 5px;
+	background-color: rgba(13,5,0,0.4);
+}
+
+footer address {
+	color:rgba(0,0,0,1);
+	width: 100%;
+	height:auto;
+	max-width: inherit;
+	min-width: inherit;
+	clear: left;
+	font-size: 1.39em;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:33px;
+	border-top: 1px solid black;
+	padding-top:none;
+}
+
+/* Block Styles */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'JosefinSans Bold';
+	width: auto;
+	text-align: center;
+	color:white;
+	margin:10px 10px 10px 0px;
+}
+.mainImg {
+	margin: 30px 0px 30px 30px;
+
+	width:700px;
+	height:auto;
+	clear:right;
+	border:4px solid black;
+	border-radius:10px;
+}
+
+header h1{
+	font-family: 'JosefinSans Bold';
+	color: rgb(255, 255, 255);
+	text-align: center;
+	display: inline-block;
+	margin: 30px 15px 20px 15px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	font-size: 72px;
+	color: black;
+	z-index:auto;
+	width: auto;
+	height: auto;
+	position:relative;
+	border: none;
+	opacity: 1;
+	overflow:visible;
+	cursor: default;
+	white-space:pre-wrap;
+	background: none;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+	width: auto;
+}
+
+section h2 {
+	font-family:'JosefinSans Bold';
+	width: 90%;
+	text-align: center;
+	background-color:rgba(164, 56, 32, 0.3);
+	color:white;
+	margin:10px 10px 10px 0px;
+}
+
+section h4 {
+	font-family:'JosefinSans Bold';
+	width: 90%;
+	text-align: center;
+	background-color:rgba(164, 56, 32, 0.3);
+	color:white;
+	margin:10px 10px 10px 0px;
+}
+
+header h4 {
+	display:block;
+	overflow:auto;
+	font-family:'JosefinSans Bold';
+	font-size: 22px;
+	font-style: none;
+	padding-bottom: 0.5em;
+	border-bottom: 1px black solid;
+	margin-top: 5px;
+	width: auto;
+	text-align: center;
+}
+article h2 {
+	margin-top:-3%;
+	width:auto;
+}
+
+article h4{
+	width:auto;
+}
+
+article {
+	width: 98%;
+	height:auto;
+}
+
+article p {
+	font-family:'JosefinSans Bold';
+	font-size:20px;
+	color:rgba(255,255,255,1);
+	padding-left: 60px;
+	padding-right: 60px;
+	width:auto;
+	height:100%;
+	text-align:left;
+}
+
+article.about {
+  width:97%;
+  height:100%;
+  display:inline;
+  margin: 10%;
+  margin-top:3%;
+  position: relative;
+	/*Font*/
+  font-family:'JosefinSans Bold';
+  font-size: 18px;
+  line-height: 1.2;
+  color: rgba(220, 199, 170, 1);
+  text-align: justify;
+}
+
+p {
+	color:rgba(255,255,255,1);
+	font-size:20px;
+	font-family:JosefinSans Bold;
+	text-indent:50px;
+}
+	
+aside {
+	display:inline-block;
+	background-color:rgba(0,0,0,0.6);
+	font-family:'JosefinSans Bold';
+	color:rgba(255,255,255,1);
+	width:37%;
+	height:auto;
+	border: 3px solid white;
+	border-radius:10px;
+	float: right;
+	position:relative;
+	margin-top:20px;
+	margin-right:5px;
+}
+
+article.signup {
+	display:inline-block;
+	font-family:'JosefinSans Bold';
+	width: 99%;
+	position:relative;
+	padding:70px;
+	margin-top:20px;
+}
+
+article.signup h2 {
+	font-family:'JosefinSans Bold';
+	font-size:2em;
+	text-align:center;
+}
+
+aside h2 {
+	font-size:40px;
+	font-family:'JosefinSans Bold';
+	text-align: center;
+	color:#FFF100;
+	text-decoration:underline;
+	line-height:1.4em;
+}
+
+aside p {
+	font-family:'JosefinSans Bold';
+	font-size: 0.8em;
+	width:98%;
+	display:block;
+	text-align: center;
+}
+
+aside blockquote {
+	margin: 1.2em 2em 0em 2em;
+	color:rgba(0,0,0,1);
+	height:100%;
+}
+
+aside.recipeSubmit{
+	display:inline-block;
+	font-family:'JosefinSans Bold';
+	width: 37.5%;
+	float: right;
+	position:relative;
+	margin-right:5px;
+}
+
+blockquote cite {
+	font-size:1.3em;
+	color:yellow;
+}
+
+form#userRecipe {
+	width:90%;
+	margin: 0px 30px 10px 20px;
+	background-color:rgba(0,0,0,0.8);
+}
+
+form#userRecipe legend, 
+form#userRecipe label {
+	margin:5px 1px 5px 10px;
+	width:95%;
+	color:yellow;
+	text-align: center;
+}
+
+form#userRecipe textarea,
+form#userRecipe input,
+form#userRecipe select {
+	margin:5px 1px 5px 10px;
+	width:95%;
+	color:black;
+	text-align:left;
+}
+
+form#userRecipe textarea {
+	height:100px;
+}
+
+form#userRecipe input[type="submit"],
+form#userRecipe input[type="reset"] {
+	color:white;
+	text-align:center;
+	width:50%;
+	margin:5px 100px 5px 50px;
+	border: 4px solid white;
+	border-radius:20px;
+}
+
+form#email {
+	width:90%;
+	margin:60px 10px 0px 80px;
+	background-color:rgba(0,0,0,0.8);
+}
+
+form#email legend {
+	text-align: center;
+	color:yellow;
+}
+
+form#email label {
+	color: yellow;
+}
+
+form#email textarea,
+form#email input,
+form#email select {
+	margin:5px 1px 5px 10px;
+	width:95%;
+	color:black;
+	text-align:left;
+}
+
+form#email textarea {
+	height:100px;
+}
+
+form#email input[type="submit"] {
+	color:white;
+	text-align:center;
+	width:25%;
+	margin:5px 100px 5px 370px;
+	border: 4px solid white;
+	border-radius:10px;
+}
+
+form#email input[type="reset"] {
+	color:white;
+	text-align:center;
+	width:25%;
+	margin: 5px 100px 5px 370px;
+	border: 4px solid white;
+	border-radius:10px;
+}
+
+
+
+cite {
+	color:rgba(255,255,255,1);
+}
+/* nav list styles with a few options */
+
+nav {
+	font-family:'JosefinSans Bold';
+	background-color: black;
+	width:100%;
+}
+
+nav ul {
+	border:1px solid rgba(204,204,204,1);
+	width:100%;
+	list-style: none;
+	background-color: black;
+	text-align: center;
+	margin: 0px auto;
+	padding:0px auto;
+	float:left;
+}
+
+nav li {
+	width:auto;
+	position:relative;
+	display:block;
+	margin-right:none;
+	margin-left:0px;
+	color: white;
+	font-size: 14px;
+	line-height: 30px;
+	height: 30px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	transition: .3s;
+	background-color:black;
+	width: 97%;
+	font-size:20px;
+	height:30px;
+}
+
+nav a:hover {
+	background-color:rgba(247,195,49,1);
+	cursor:pointer;
+}
+
+nav a.active {
+	background-color:rgba(247,136,47,1);
+	color: black;
+	cursor:pointer;
+}
+
+@media screen and (min-width: 600px) {
+
+nav li {
+	width:16%;
+	float:left;
+	border-bottom: none;
+	height: 30px;
+	line-height: 30px;
+	font-size: 0.5em;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+	
+/* Option 1- nav bar Float to left */
+	
+nav li {
+	border-right:4px solid rgba(204,204,204,1);
+	display:inline-block;
+	float: left;
+	
+}
+nav li.links {
+	border-right:none;
+}
+
+nav ul {
+	overflow: hidden;
+	width: 97%;
+	margin-left: 4px;
+	margin-right:none;
+}
+}
+
+ 
+/* Option 2 - Display Inline 
+  
+  nav li {
+  display: inline-block;
+  margin-right: -4px;
+}
+}
+*/
+/* Styles for Recipe Tables */
+
+table.recipe {
+	border: 10px outset rgb(153,0,0);
+	width: 100%;
+	margin-top: 25px;
+	background-color: rgb(0,0,0);
+	text-align: left;
+}
+
+table.recipe th, table.recipe td {
+	border: 1px solid orange;
+	color: white;
+	text-align: left;
+}
+
+table{
+	font-family:'JosefinSans Bold';
+	border-collapse:separate;
+	border-spacing:3px;
+}
+
+table caption{
+	color:black;
+}
+
+table.recipe col.firstCol {
+	background-color:rgb(153,153,153);
+	width:10%;
+	color:black;
+}
+
+table.recipe col.secondCol {
+	background-color:rgb(51,0,0);
+	color:white;
+	width:10%;
+}
+
+table.recipe col.ingredientCol {
+	width:75%;
+}
+
+table.recipe thead tr{
+	height:50px;
+	color:black;
+}
+
+table.recipe tbody tr {
+	height:5px;
+}
+
+table.recipe tbody tr {
+	color:black;
+}
+
+table.recipe tbody th {
+	color:black;
+}
+
+table caption {
+	font-size:28px;
+	color:rgb(255,102,0);
+}
+
+table.recipe col.firstCol th {
+	color:black;
+}
+
+table h5 {
+	color:white;
+	margin-top:2px;
+	margin-bottom:2px;
+	font-family:'JosefinSans Bold';
+	font-size:26px;
+	background-color:rgba(102,0,0,1);
+	padding-top:none;
+	height:auto;
+	font-variant:small-caps;
+}
+
+section.full h2 {
+	font-family: 'JosefinSans Bold';
+	font-size: 24px;
+	color: rgb(253,165,0);
+	background-color: transparent;
+}
+
+section.full {
+	font-family:'JosefinSans Bold';
+	width: 100%;
+	margin:40px 5px 20px 5px;
+	height:auto;
+}
+
+section.full h1 {
+	font-family:'JosefinSans Bold';
+}
+article#full {
+	font-family:'JosefinSans Bold';
+	width:99%;
+	height:auto;
+	margin:auto;
+	background-color:rgba(20,20,20,0.8);
+	color:black;
+	padding:auto;	
+}
+
+article#full h1 {
+	font-family:'JosefinSans Bold';
+	color: rgba(171, 152, 122, 1);
+	background-color: rgb(0,0,0);
+	margin-top: 2px;
+	margin-bottom:-25px;
+	font-size: 50px;
+	height: auto;
+	font-variant:small-caps;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	line-height:normal;
+}
+article#full h2 {
+	font-family: 'JosefinSans Bold';
+	color: rgba(171, 152, 122, 1);
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-size: 42px;
+	background-color: rgba(153,102,0,0.4);
+	padding-top: 25px;
+	height: 50px;
+	font-variant:small-caps;
+}
+
+article#full h1#fulla {
+	font-family: 'JosefinSans Bold';
+	color: rgba(171, 152, 122, 1);
+	background-color: rgb(0,0,0);
+	margin-top: -20px;
+	margin-bottom:-15px;
+	font-size: 50px;
+	height: auto;
+	font-variant:small-caps;
+	padding-top: 2px;
+	padding-bottom:10px;
+	
+}
+
+article#full h2#fulla  {
+	font-family: 'JosefinSans Bold';
+	color: rgba(171, 152, 122, 1);
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-size: 42px;
+	background-color:rgba(0,0,0,1);
+	padding-top: 25px;
+	height: 50px;
+	font-variant:small-caps;
+}
+
+article#full p#fulla  {
+	font-family:'JosefinSans Bold';
+	font-size:16px;
+	text-align:center;	
+	margin-top:15px;
+	font-variant:small-caps;
+}
+
+article#full h3 {
+	color:rgba(255,255,255,1);
+	margin-top: 2px;
+	margin-bottom: 25px;
+	font-family: 'JosefinSans Bold';
+	font-size: 14px;
+	background-color:rgba(51,51,51,0.4);
+	padding-top: 5px;
+	height: 80px;
+	font-variant:small-caps;
+}
+
+article#full h4 {
+	color: rgba(0,0,0,0.7);
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: 'JosefinSans Bold';
+	font-size: 24px;
+	background-color:rgba(51,51,51,0.4);
+	padding-top: 25px;
+	height: 50px;
+	font-variant:small-caps;	
+}
+
+article#full h5 {
+	color:white;
+	margin-top:2px;
+	margin-bottom:2px;
+	font-family:'JosefinSans Bold';
+	font-size:26px;
+	background-color:rgba(102,0,0,1);
+	padding-top:none;
+	height:auto;
+	font-variant:small-caps;
+}
+
+article#full hgroup {
+	font-family:'JosefinSans Bold';
+	width: auto;
+	text-align: center;
+	background-color:rgba(164, 56, 32, 0.3);
+	color:white;
+	margin:10px 10px 10px 0px;
+}
+
+article#full p {
+	font-family:'JosefinSans Bold';
+	font-size:16px;
+	text-align:center;	
+	margin-top:50px;
+	font-variant:small-caps;
+}
+
+article#full figure figcaption {
+	font-family:'JosefinSans Bold';
+	font-size:16px;
+	text-align:center;
+		
+}
+
+article#full img {
+	margin: auto;
+	padding-left: auto;
+	float: left;
+	clear: right;
+	margin: 5px -15px 15px 10px;
+	width:48%;
+	height:auto;
+}
+article#full img#fullb {
+	padding-left:auto;
+	margin:5px -15px 15px 10px;
+	width:98%;
+	height:auto;	
+}
+
+section.links h2 {
+	font-family: 'JosefinSans Bold';
+	font-size: 24px;
+	color: rgb(253,165,0);
+	background-color: transparent;
+}
+
+section.links {
+	font-family:'JosefinSans Bold';
+	width: 99%;
+	height:auto;
+	margin:20px 0px 20px 0px ;
+	background-color:rgba(171,147,83,0.5);
+}
+
+section.links h1 {
+	font-family:'JosefinSans Bold';
+}
+article#links {
+	font-family:'JosefinSans Bold';
+	width:99%;
+	height:auto;
+	margin:auto;
+	background-color:rgba(20,20,20,0.8);
+	color:black;
+	padding:auto;	
+}
+
+article#links h1 {
+	font-family:'JosefinSans Bold';
+	color: rgba(171, 152, 122, 1);
+	background-color: rgb(0,0,0);
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 50px;
+	height: 50px;
+	padding-top: 25px;
+}
+
+article#links h2 {
+	font-family: 'JosefinSans Bold';
+	color: rgba(171, 152, 122, 1);
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 42px;
+	background-color: rgb(0,0,0);
+	padding-top: 25px;
+	height: 50px;
+}
+
+article#links hgroup {
+	font-family:'JosefinSans Bold';
+	width: auto;
+	text-align: center;
+	background-color:rgba(164, 56, 32, 0.3);
+	color:white;
+	margin:10px 10px 10px 0px;
+}
+
+article#links p {
+	font-family:'JosefinSans Bold';
+	font-size:16px;
+	text-align:center;	
+}
+
+article#links figure figcaption {
+	font-family:'JosefinSans Bold';
+	font-size:16px;
+	text-align:center;
+	margin-top:60px;
+	color:rgb(0,0,0);
+}
+
+article#links figure a:hover figcaption {
+	color:white;
+}
+
+article#links figure a:visited figcaption {
+	color:rgb(0,255,0);
+}
+
+article#links figure {
+	width:auto;
+	padding-left: auto;
+	margin: 0px 10px 0px 50px;
+	float: left;
+	clear:none;
+}
+
+section.full footer address img.scrollup {
+	width:50px;
+	height:50px;
+	float:right;
+	clear:both;
+	margin: 0px 2px 10px 2px;
+}

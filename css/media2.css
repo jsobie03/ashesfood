@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* CSS STYLESHEET FOR IMAGES, VIDEOS AND AUDIO ONLY */
+
+section.links {
+	background-color:rgba(153,0,0,0.3);
+	width: 100%;
+	height:auto;
+	margin:20px 0px 20px 0px ;
+}
+
+article#links {
+	background-color:rgba(102,0,0,0.2);
+	width:100%;
+	height:auto;
+	margin:auto;
+	color:black;
+	padding:auto;	
+}
+
+section.links h2 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:24px;
+	color:rgb(253,165,0);
+	background-color:transparent;
+}
+
+article#links h1 {
+	color:rgb(253,165,0);
+	background-color:transparent;
+	margin-top:20px;
+	margin-bottom:5px;
+	padding:auto;
+	font-family:Pirelli;
+	font-size:42px;
+}
+
+article#links p {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	text-align:center;	
+}
+
+figure {
+	float: none;
+	clear: none;
+	text-align: left;
+}
+
+figcaption {
+	text-align: justify;
+	font-size: 24px;
+	font-family: Pirelli;
+}

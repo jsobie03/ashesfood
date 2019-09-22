@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+/* CSS Stylesheet for FORMS only 
+	
+    Author: Jonathan Sobier
+	Date: 3/26/2017
+	document: forms.css
+*/
+
+form p {
+	text-align:left;
+}
+
+fieldset  {
+	padding: 10px 10px 10px 10px;
+	width: 80%;
+}
+
+form#userRecipe {
+	color:black;	
+}
+
+article.recipeSubmit {
+	width:auto;	
+}
+#userRecipe {
+	display:inline-block;
+	border: 4px solid rgb(151,0,0);
+	background-color: rgba(64,128,128,0.3);
+	clear: none;
+	float: left;
+	margin:auto;
+	margin-left:auto;
+	width: auto;
+	height:75%;		
+}
+
+#userRecipe textarea {
+	border: 2px solid rgb(151,0,0);
+	float:left;
+	clear:both;
+	margin-left:0px;
+	margin-right:5px;
+	width:auto;
+}
+
+#userRecipe input {
+	width:auto;
+	margin-left:5px;
+	float:right;
+}
+
+#userRecipe legend {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size: 16px;
+	color: rgba(171,152,122,1);
+	background-color:rgba(0,0,0,1);
+	font-style: normal;
+	font-weight: 400;
+}
+
+#userRecipe label {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	color:black;
+	float:left;
+}
+input#custName, input#recipeName {
+	float:left;
+	clear:both;	
+}
+
+select#recipeGenre {
+	float:left;
+	clear:both;
+	width:auto;
+}
+
+label#ingredients, label#directions {
+	float:left;
+	clear:both;	
+}
+
+textarea#ingredients, textarea#directions {
+	float:left;
+	clear:left;
+}
+
+form#email{
+	color:black;
+}
+
+#emailInfo legend{
+	background-color:rgb(128,0,0);
+}
+#emailInfo {
+	border: 4px solid rgb(151,0,0);
+	background-color:rgba(220,199,170,1);
+	clear: none;
+	float: left;
+	margin:auto;
+	margin-left:20px;
+	width: auto;	
+}
+
+#emailInfo input {
+	margin-right:5px;
+	margin-left:0px;
+	float:right;
+}
+
+#persInfo legend  {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	color: rgba(220,199,170,1);
+	background-color:black;
+	width:auto;
+	height:40px;
+	font-style: normal;
+	font-weight: bold;
+	padding-top:10px;
+}
+
+#persInfo label  {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:black;
+	font-weight:bold;
+}
+
+#foodSurvey {
+	border: 4px solid rgb(151,0,0);
+	background-color:rgba(220,199,170,1);
+	margin-top: 19px;
+	margin-bottom: 0px;
+	clear: none;
+	float: left;
+	margin-left: 0px;
+	width: 95%;
+}
+
+#foodSurvey legend {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 32px;
+	font-weight:bold;
+	color: rgba(220,199,170,1);
+	background-color:black;
+	width:auto;
+	height: 40px;
+	font-style: normal;
+	font-weight: bold;
+	padding-top:10px;
+}
+
+#persInfo #fName {
+	width: auto;
+	float: left;
+}
+
+#foodSurvey label {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	float: none;
+	text-align: center;
+	color:black;
+}
+
+input {
+	display:inline-block;
+	width: auto;
+	color:black;
+}
+
+#persInfo #address {
+	width: 80%;
+}
+
+#foodSurvey #favFood {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	width: 50%;
+	background-color: white;
+	color: black;
+}
+
+#foodSurvey #mealsPerWeek {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: white;
+	color: black;
+}
+
+#persInfo {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	background-color: rgba(220,199,170,1);
+	display: block;
+	border-radius: 4px;
+	border-color: rgb(151,0,0);
+	border-style: solid;
+	width: 95%;
+
+}
+
+#foodSurvey label #needMore {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	width: auto;
+	background-color: rgba(220,199,170,1);
+	color: black;
+}
+
+#foodSurvey .optionGroup {
+	border: none;
+	display: inline-block;
+	background-color: transparent;
+	color: black;
+}
+
+p input {
+	margin:5px 5px 5px 40px;
+}
+
+#foodSurvey #comments {
+	margin: 0px 10px 0px 10px;
+	width: 90%;
+	min-height: 150px;
+	color: black;
+}
+
+/* Button Styles */
+
+
+input[type="submit"], input[type="reset"]{
+	display:inline-block;
+	text-align: center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight:bold;
+	color:rgba(153,153,153,1);
+	margin-right:2px;
+	background-color:rgb(0,0,0);
+	float:left;
+	height:auto;
+	width:auto;
+	border: 2px solid #000;
+	cursor:pointer;
+	font-variant:small-caps;
+}
+
+input:hover {
+	background-color:rgba(255,0,0,0.8);
+	color:rgba(0,0,0,1)	
+}
+
+/* Validation styles */
+
+input:focus, select:focus, textarea:focus {
+	background-color:rgb(220, 255, 220);
+}
+
+input:focus:valid {
+	background:rgb(220, 255, 220) url(go.png) bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+input:focus:invalid {
+	background: rgb(255, 232, 233) url(stop.png) bottom right no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+/* END OF CSS FORMS STYLESHEET */
+
+
+
+/

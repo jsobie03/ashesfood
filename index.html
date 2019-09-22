@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Food From The Ashes 
+             ***fmr. named: FOOD PHXed***
+             Redesign Index Page
+             Author: Jonathan Sobier
+             Date: 3/26/2017
+			 Rev: 7/1/2019
+             document: index.html
+        -->
+<meta charset="utf-8">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+<title>Food From The Ashes: Links Page</title>
+<script src="js/scroll.js" type="text/javascript"></script>
+<script src="js/modernizr-1.5.js" type="text/javascript"></script>
+<script src="js/formsubmit.js" type="text/javascript"></script>
+<link href="css/styles2.css" rel="stylesheet" type="text/css"/>
+<link href="css/forms2.css" rel="stylesheet" type="text/css"/>
+<link href="css/media2.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+<!-- HEADER FOR ENTIRE SITE -->
+<div class="container">
+<header>
+<div class="header">
+    <img src="img/phxlogo.jpg" alt="Site Logo" width="128" height="118" class="siteLogo">
+	<h1 class="siteTitle">Food From The Ashes</h1>
+<nav>
+  <ul>
+    <li class="home"><a class="active" href="index.html">Home</a></li>
+    <li class="appetizers"><a href="apps2.html">Starters</a></li>
+    <li class="lunches"><a href="sandw2.html">Lunch</a></li>
+    <li class="dinner"><a href="dinner2.html">Dinners</a></li>
+    <li class="desserts"><a href="dessert2.html">Dessert</a></li>
+    <li class="links"><a href="links2.html">Links</a></li>
+  </ul>
+	</nav>
+  </div>
+</header>
+ <section>
+	 
+<img src="img/StockSnap_DY6T7NRJKE.jpg" class="mainImg" alt="ice cream almonds" width="74%" height="375"/>
+  
+<article class="about">
+    <h2>WELCOME!!!!</h2>
+    <p>Are you ready to find the PHX that works best to give life to your tastebuds once again? So, you're probably curious why there is a recipe "foodie" site that has the mythical bird called the Phoenix all over its homepage? Let me clear this up right away! When I approach life in general, I can easily relate to The Phoenix because I too know what it feels like to rebuild and be reborn out the ashes of a previous life that burst into flames eventually.</p>
+		 <p>This makes me approach anything that seems old or overdone or even just something that feels boring and try and build something great out the remnants of the original idea or project. This brings up the answer to the recipes and the idea for the entire site. This site is like The Phoenix because it is taking old, traditional, and boring recipes and basically burning the recipes and only keeping the best parts.</p>
+			 <p>Then, once I put my touch on the recipes (or the chef, blogger, regular human being put their touch on the recipes), the recipe can be seen as having been born from the ashes of the original recipe. These fixed recipes then gave me the ultimate idea. The Phoenix can be abbreviated to PHX, which can be pronounced "fix"! </p>
+				 <p>There you have it, I am Mr. PHXit and this is my Foodie PHXes Web site where the old and boring are being reborn into the new and trendy! Enjoy and I hope you do try out some of the recipes here! If you have an idea, there is a form to submit your own recipe(s) on this homepage in the lower right part of the page. I encourage you to send me your recipes because I may just try them out and then feature them (and you) on the site in the near future! Bon Appetit! Manga! Eat Up and Enjoy!!!!</p>
+	 </article>
+	 	</section>
+
+<aside>
+  <h2>FEEDBACK FROM USERS</h2>
+  <blockquote>
+    <p><strong>"For a new Web Developer, this site is fantastic! A little bit dark in color but I would definitely hire this 'Mr. PHXit' to develop my company
+      Web site! I may just e-mail him right now about that!"</strong><br/>
+      <cite>DAMIAN OROZCO - SAN JUAN CAPISTRANO, CA</cite></p>
+    <p><strong>"Gorgeous site and I play on returning to it soon! I do have to say that it was a bit dark at first but I noticed that the developer made some major changes that 
+    improved the overall color scheme of the Web site so that it is much more user friendly. No longer bright and distracting, nor dark and unreadable!"</strong><br/>
+      <cite>ASHLEY DUNHAM - LONG BEACH, CA</cite></p>
+    <p><strong>"A big thumbs up from a very proud mother. Yes, the Web Developer is my son and I could not be more proud of this site. Keep up the great work kiddo!"</strong> <br/>
+      <cite>MARCIA SOBIER - RANCHO SANTA MARGARITA, CA</cite></p>
+  </blockquote>
+</aside>
+
+<aside class="recipeSubmit">
+  <h2>Have a great recipe? Wanna share it?</h2>
+  <form action="recipe-form-handler.php" method="POST" enctype="multipart/form-data" name="userRecipe" id="userRecipe">
+      <legend id="persInfo">Submit Ingredients and Directions</legend>
+      
+      <label for="custName">Your Name *</label>
+      <input name="custName" id="custName"/>
+      <br/>
+      
+      <label for="recipeName">Recipe Name</label>
+      <input name="recipeName" id="recipeName">
+      <br/>
+      
+      <label for="recipeGenre">Recipe Genre</label>
+      <select name="recipeGenre" id="recipeGenre" size="1">
+        <option value="mexican">Mexican Food</option>
+        <option value="italian">Italian Food</option>
+        <option value="mediter">Greek / Mediterranean Food</option>
+        <option value="american">American Traditional Food</option>
+        <option value="asia">Asian Food (Chinese, Japanese, etc.)</option>
+        <option value="brazil">Brazilian Food</option>
+        <option value="southern">Southern Homestyle Food</option>
+        <option value="euro">European Food (French, Scottish, etc.)</option>
+      </select>
+      <br/>
+      <br/>
+      <label for="ingredients">Ingredients<br/>
+        <textarea name="ingredients" id="ingredients"></textarea>
+      </label>
+      <br/>
+      <br/>
+      <label for="directions">Directions<br/>
+        <textarea name="directions" id="directions"></textarea>
+      </label>
+      <p>
+		  <input type="submit" value="Submit Now"/></p>
+	  <br/>
+	  <p>
+		  <input type="reset" value="Cancel" />
+    </p>
+  </form>
+</aside>
+	</section>
+<section class="full">
+<article class="full">  
+  <form action="signup-handler.php" method="POST" enctype="multipart/form-data" name="email" id="email">
+	  <h2>Want to get recipes in your e mail?</h2>
+      <legend>Signup NOW!</legend>
+      <label for="custName"><br>
+        
+      NAME*</label>
+	 <input type="text" name="custName" id="custName"/>
+      <br/>
+      <label for="email"><br>
+        <br>
+        <br>
+      e-MAIL*</label>
+	 <input type="email" name="email" id="email"/>
+      <br/>
+	  <label for="zip"><br>
+      ZIPCODE*</label>
+	 <input type="text" name="zip" id="zip"/>
+      <br>
+    <p>
+      <input type="submit" value="Submit Now" />
+	  <input type="reset" value="Cancel" />
+    </p>
+  </form>
+	 
+	</article>
+	</section>
+	<section class="full">
+		<article id="full">
+    <hgroup>
+    <br/>
+    <h1>THE BEST OF MARCH 2017</h1>
+       <h4>The votes are in and they have been counted and tallied...<br/>
+    and the best recipe of the month of March 2017 is...<br/>
+    </h4>
+    </hgroup>
+    <h2>S'MORES CAKE IN A JAR</h2>
+<table class="recipe" border="1" cellspacing="1" cellpadding="2"
+	summary="This is the recipe for my personal favorite appetizer that I've ever made for friends and family over the years!">
+  <img src="img/smoresinjars.jpg" id="fullb" alt="smores in a jar"/>
+ 
+  <colgroup>
+  <col class="firstCol" style="color:black"/>
+  <col class="secondCol" />
+  <col class="ingredientCol" />
+  </colgroup>
+    <h5>Ingredients for the Crust</h5>
+   <tr>
+  <thead>
+  <th style="color:black">Number</th>
+    <th>Measurement</th>
+    <th>Ingredient</th>
+      </thead>
+  </tr>
+  
+  <tr>
+  <tbody valign="top">
+
+  <th>1</th>
+    <td align="center">1&#189; cups</td>
+    <td align="center">graham cracker crumbs</td>
+      </tbody>
+  <tbody valign="top">
+  <th>2</th>
+    <td align="center">&#189; stick</td>
+    <td align="center">butter</td>
+  <tbody valign="top">
+  <th>3</th>
+    <td align="center">a pinch</td>
+    <td align="center">salt</td>
+      </tbody>
+    
+    <table class="recipe" border="1" cellspacing="1" cellpadding="2"
+	summary="This is the recipe for my personal favorite appetizer that I've ever made for friends and family over the years!">
+   
+   <br/>
+      <h5>Directions for the Crust</h5>
+      <colgroup>
+      <col class="firstCol" />
+      <col class="ingredientCol" />
+      </colgroup>
+      
+      <tr>
+      <thead>
+      <th style="color:black">Step</th>
+        <th>Crust Directions</th>
+          </thead>
+      </tr>
+      <tr>
+      <tbody valign="top">
+      <th>1</th>
+        <td align="center">Preheat the Oven to 350&deg;F.</td>
+          </tbody>
+      <tbody valign="top">
+      <th>2</th>
+        <td align="center">Melt butter and mix in graham cracker crumbs and salt. Mix until moistened. Spray 4 mason jars with non-stick spray and press graham crust into jars. Start by adding a Tablespoon to each jar, and repeat that until graham crumbs are gone. They do not need to look perfect. I pressed the crumbs down firmly with the flat bottom of a clean screwdriver.</td>
+          </tbody>
+      </tr>
+      <tr> </tr>
+    </table>
+      </tbody>
+      
+      <table class="recipe" border="1" cellspacing="1" cellpadding="2"
+	summary="This is the recipe for my personal favorite appetizer that I've ever made for friends and family over the years!">
+    <br/>
+    
+    <h5>Ingredients for the Cake</h5>
+  <colgroup>
+  <col class="firstCol" style="color:black"/>
+  <col class="secondCol" />
+  <col class="ingredientCol" />
+  </colgroup>
+  
+  <tr>
+  <thead>
+  <th style="color:black">Number</th>
+    <th>Measurement</th>
+    <th>Ingredient</th>
+      </thead>
+  </tr>
+  <tr>
+    <th>1</th>
+    <td align="center">1 1/8; cups</td>
+    <td align="center">All Purpose Flour</td>
+  <tbody valign="top">
+  <th>2</th>
+    <td align="center">&#188; cup</td>
+    <td align="center">Dark cocoa powder</td>
+      </tbody>
+  <tbody valign="top">
+  <th>3</th>
+    <td align="center">1&#188; tsp</td>
+    <td align="center">baking soda</td>
+      </tbody>
+    <th>4</th>
+    <td align="center">&#189; tsp</td>
+    <td align="center">salt</td>
+  <tbody valign="top">
+  <th>5</th>
+    <td align="center">&#190; cup</td>
+    <td align="center">brown sugar</td>
+      </tbody>
+  <tbody valign="top">
+  <th>6</th>
+    <td align="center">1 qty</td>
+    <td align="center">egg</td>
+      </tbody>
+    <th>7</th>
+    <td align="center">1 tsp</td>
+    <td align="center">vanilla extract</td>
+  <tbody valign="top">
+  <th>8</th>
+    <td align="center">&#189; cup</td>
+    <td align="center">Milk</td>
+      </tbody>
+  <tbody valign="top">
+  <th>9</th>
+    <td align="center">&#189; cup + 1 tbsp</td>
+    <td align="center">heavy cream</td>
+    </tbody>
+    <tbody valign="top">
+    <th>10</th>
+    <td align="center">&#189; cup</td>
+    <td align="center">butter, melted</td>
+    </tbody>
+  <tbody valign="top">
+  <th>11</th>
+    <td align="center">2 tbsp</td>
+    <td align="center">sour cream</td>
+      </tbody>
+  <tbody valign="top">
+  <th>12</th>
+    <td align="center">1 bag</td>
+    <td align="center">Large Marshmallows (for the topping)</td>
+      </tbody>
+      </tbody>
+  </tr>
+</table>
+<br/>
+
+<table class="recipe" border="1" cellspacing="1" cellpadding="2"
+	summary="This is the recipe for my personal favorite appetizer that I've ever made for friends and family over the years!">
+<h5>Directions for the Cake</h5>
+<colgroup>
+<col class="firstCol" />
+<col class="ingredientCol" />
+</colgroup>
+
+<tr>
+
+<thead>
+<th style="color:black">Step</th>
+  <th>Cake Directions</th>
+  </thead>
+</tr>
+
+<tr>
+<tbody valign="top">
+<th>1</th>
+  <td align="center">In a bowl, whisk egg and sugar until smooth and no lumps remain. Add milk, cream, butter and vanilla, and mix until combined. Stir in sour cream. Sift dry ingredients together and add to wet mixture. Mix until batter is smooth. Using a 1/4 cup measure, add batter to mason jars one scoop at a time. You only want to fill them up about half way, and the batter should work evenly for 4 jars. Again – don’t worry if it is perfect. Place mason jars in a baking dish and add about 1 1/2 cups of water to the bottom. Bake for 30 minutes, or until cake is set.</td>
+  </tbody>
+  
+<tbody valign="top">
+<th>2</th>
+  <td align="center">Remove cake from the oven and press large marshmallows down on top, being careful not to burn yourself. There is no set number of marshmallows to use, I pressed down as many as I could, about 4-5 each. Heat the broiler on your oven and watching carefully, brown marshmallows for about 1-2 minutes, or until golden brown. Do not take your eyes off them! Serve immediately.</td>
+  </tbody>
+
+<tbody valign="top">
+<th>3</th>
+  <td align="center">The recipe looks really long, but it is actually really easy!&nbsp;*When you put the marshmallows on top and broil, they may sink down below the edges of the chocolate cake. This is normal. The cake it still more than halfway to the top. *These are pretty rich and sweet, and make a really great dessert for two people to share with two spoons… but can still be eaten by one. *You can use other sizes of jars, just use your eye to decided how much batter to use, never going over half way. If you have too much batter, just make a few cupcakes.</td>
+  </tbody>
+  </tr>
+  </table>
+</article>
+<!--Footer with address and link to email-->
+<section class="full">
+	<footer>
+    	<address>
+    		<a href="#"><img class="scrollup" src="img/back_to_top_1.png" /></a>
+      		Jonathan Sobier &#8220;Mr. PHX-It&#8221; &#149;
+      		32782 Meadowpark Lane &#149; 
+      		Trabuco Canyon, CA 92679 &#149;
+      		(949) 690-1553 <a href="mailto:jsobie03@baker.edu">jsobie03@baker.edu</a>
+    	</address> 
+	</footer>
+</section>
+	</div>
+<script type="text/javascript">
+var frmvalidator = new Validator(“email”); 
+frmvalidator.addValidation(“custName”,”req”,”Please provide your name”); 
+frmvalidator.addValidation(“emailaddress”,”req”,”Please provide your email”); 
+frmvalidator.addValidation(“zip”,”req”, “Please provide your zipcode”);
+</script>
+<script type="text/javascript">
+var frmvalidator = new Validator(“userRecipe”); 
+frmvalidator.addValidation(“custName”,”req”,”Please provide your name”); 
+frmvalidator.addValidation(“recipeName”,”req”,”Please provide a name for your recipe”); 
+frmvalidator.addValidation(“ingredients”,”req”, “Please provide ingredients and measurements for your recipe”);
+frmvalidator.addValidation(“directions”,”req”,”Please provide directions on preparing your recipe”);
+</script>
+</body>
+</html>
+
+
+
